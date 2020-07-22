@@ -1,6 +1,8 @@
 /* Modify the SlashFigure program from the previous exercise to produce a new 
  * program SlashFigure2 that uses a global constant for the figure's height.
  */
+
+ I have a better solving way :)) noob!
 public class SlashFigure2 {
     public static final int SIZE = 6;
     
@@ -12,6 +14,7 @@ public class SlashFigure2 {
             for(int j = 0; j < -4 * i + 4 * SIZE + 2; j++)
                 System.out.print("!");
                 
+            
             for(int j = 0; j < 2 * i - 2; j++)
                 System.out.print("/");
                 
